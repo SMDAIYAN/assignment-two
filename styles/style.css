@@ -191,6 +191,40 @@ li a {
         /* our popular tour styles ends here */
 
 
+        /* choose your destination section styles */
+
+.cyd-container {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.cyd-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.cyd-des {
+  margin: 30px 150px;
+}
+
+.cyd-row img {
+  height: 100%;
+  width: 100%;
+}
+
+.cyd-row {
+  height: 250px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+
+}
+
+ /* choose your destination section styles ends here  */
+
+
+
+
 /* responsive styles  */
 
 @media screen and (max-width: 576px) {
@@ -229,11 +263,11 @@ li a {
     margin-top: 20px;
   }
 
-  .banner-des {
+  .banner-des, .cyd-des {
     margin: 30px 20px;
   }
 
-  .banner-input, .opt-container {
+  .banner-input, .opt-container, .cyd-row {
     flex-direction: column;
   }
 
@@ -260,13 +294,19 @@ li a {
       width: 100%;
     }
 
-    .opt-title {
+    .opt-title, .cyd-title {
       font-size: 1.4rem;
     }
 
         /* our popular tour ends here  */
 
+   /* choose your destination section styles starts here  */
 
-        
+   .cyd-row {
+    height: auto;
+   }
+
+      /* choose your destination section styles ends here  */
+
 
 }
