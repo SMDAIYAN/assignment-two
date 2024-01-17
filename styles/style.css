@@ -198,12 +198,13 @@ li a {
   text-align: center;
 }
 
-.cyd-title {
+.cyd-title, .wcu-title{
   font-size: 2.5rem;
   font-weight: 800;
+  
 }
 
-.cyd-des {
+.cyd-des, .wcu-des {
   margin: 30px 150px;
 }
 
@@ -222,8 +223,56 @@ li a {
 
  /* choose your destination section styles ends here  */
 
+   /* why choose us section starts here  */
 
+  .wcu-title {
+    text-align: center;
+  }
 
+   .wcu-container {
+    margin-top: 100px;
+   }
+
+.wcu-card {
+  display: flex;
+  height: 290px;
+  justify-content: center;
+}
+
+.card {
+  padding: 30px;
+  width: 40%;
+
+}
+
+.card-icon {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.card-des {
+  font-size: 0.85rem;
+  font-weight: 400;
+  
+}
+
+.wcu-card-1 {
+  background-color: rgba(251, 181, 99, 0.05);
+  margin-right: 25px;
+}
+.wcu-card-2 {
+  background-color: rgba(41, 206, 246, 0.05);
+}
+.wcu-card-3 {
+  margin-top: 25px;
+  background-color: rgba(233, 68, 68, 0.05);
+}
 
 /* responsive styles  */
 
@@ -263,11 +312,11 @@ li a {
     margin-top: 20px;
   }
 
-  .banner-des, .cyd-des {
+  .banner-des, .cyd-des, .wcu-des {
     margin: 30px 20px;
   }
 
-  .banner-input, .opt-container, .cyd-row {
+  .banner-input, .opt-container, .cyd-row, .wcu-card {
     flex-direction: column;
   }
 
@@ -294,19 +343,28 @@ li a {
       width: 100%;
     }
 
-    .opt-title, .cyd-title {
-      font-size: 1.4rem;
+    .opt-title, .cyd-title, .card-title, .wcu-title {
+      font-size: 1.25rem;
     }
 
         /* our popular tour ends here  */
 
    /* choose your destination section styles starts here  */
 
-   .cyd-row {
+   .cyd-row, .wcu-card {
     height: auto;
    }
 
       /* choose your destination section styles ends here  */
+
+      /* why choose us section starts here  */
+
+     .card {
+      width: 80%;
+      margin-bottom: 20px;
+     }
+
+      /* why choose us section ends here  */
 
 
 }
