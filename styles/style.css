@@ -11,12 +11,33 @@ body {
 }
 
 
+/* shared styles */
+
+.primary-button {
+    background-color: #FF5400;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 35px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+  /* header section styles  */
+
+  .header-container {
+    margin: 50px 135px;
+  }
+
 /* nav section styles */
 
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 135px;
+    
 
 }
 .logo   {
@@ -65,5 +86,60 @@ li a {
     font-weight: 700;
 }
 
+
 /* navbar styles ends here  */
 
+/* banner section starts here  */
+
+.banner-container {
+    height: 500px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.banner-des {
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    margin:50px 200px ;
+}
+
+.banner-input {
+    background-color: rgba(255, 255, 255, 0.30);
+    display: flex;
+    padding: 1rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bnr-input {
+    border: none;
+    border-radius: 8px;
+    width: 170px;
+    padding: 1rem;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+}
+
+ /* banner section ends here  */
+
+ 
